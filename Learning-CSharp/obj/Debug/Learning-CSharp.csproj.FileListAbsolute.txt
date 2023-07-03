@@ -1,6 +1,0 @@
-C:\Users\m.solaymani\Desktop\New folder\Learning-CSharp\Learning-CSharp\bin\Debug\Learning-CSharp.exe.config
-C:\Users\m.solaymani\Desktop\New folder\Learning-CSharp\Learning-CSharp\bin\Debug\Learning-CSharp.exe
-C:\Users\m.solaymani\Desktop\New folder\Learning-CSharp\Learning-CSharp\bin\Debug\Learning-CSharp.pdb
-C:\Users\m.solaymani\Desktop\New folder\Learning-CSharp\Learning-CSharp\obj\Debug\Learning-CSharp.csprojResolveAssemblyReference.cache
-C:\Users\m.solaymani\Desktop\New folder\Learning-CSharp\Learning-CSharp\obj\Debug\Learning-CSharp.exe
-C:\Users\m.solaymani\Desktop\New folder\Learning-CSharp\Learning-CSharp\obj\Debug\Learning-CSharp.pdb
