@@ -156,5 +156,49 @@ namespace Learning_CSharp.Day_02
             }
 
         }
+
+        public void Break_and_Continue() 
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                if (i == 4)
+                {
+                    break;
+                }
+                Console.WriteLine(i);
+            }
+
+            for (int i = 0; i < 10; i++)
+            {
+                if (i == 4)
+                {
+                    continue;
+                }
+                Console.WriteLine(i);
+            }
+
+            int _i = 0;
+            while (_i < 10)
+            {
+                Console.WriteLine(_i);
+                _i++;
+                if (_i == 4)
+                {
+                    break;
+                }
+            }
+
+            _i = 0;
+            while (_i < 10)
+            {
+                if (_i == 4)
+                {
+                    _i++;
+                    continue;
+                }
+                Console.WriteLine(_i);
+                _i++;
+            }
+        }
     }
 }
