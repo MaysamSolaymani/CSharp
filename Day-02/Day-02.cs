@@ -200,5 +200,72 @@ namespace Learning_CSharp.Day_02
                 _i++;
             }
         }
+
+        public void Arrays()
+        {
+            string[] cars = {"Volvo", "BMW", "Ford", "Mazda" };
+            cars[0] = "Opel";
+            Console.WriteLine(cars[0]);
+            // Now outputs Opel instead of Volvo
+
+            string[] _cars = { "Volvo", "BMW", "Ford", "Mazda" };
+            Console.WriteLine(_cars.Length);
+            // Outputs 4
+
+            // Create an array of four elements, and add values later
+            //string[] cars = new string[4];
+
+            // Create an array of four elements and add values right away 
+            //string[] cars = new string[4] { "Volvo", "BMW", "Ford", "Mazda" };
+
+            // Create an array of four elements without specifying the size 
+            //string[] cars = new string[] { "Volvo", "BMW", "Ford", "Mazda" };
+
+            // Create an array of four elements, omitting the new keyword, and without specifying the size
+            //string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+
+            for (int i = 0; i < cars.Length; i++)
+            {
+                Console.WriteLine(cars[i]);
+            }
+
+            foreach (string i in cars)
+            {
+                Console.WriteLine(i);
+            }
+
+            Array.Sort(cars);
+            foreach (string i in cars)
+            {
+                Console.WriteLine(i);
+            }
+
+            int[] myNumbers = { 5, 1, 8, 9 };
+            Array.Sort(myNumbers);
+            foreach (int i in myNumbers)
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine(myNumbers.Max());  // returns the largest value
+            Console.WriteLine(myNumbers.Min());  // returns the smallest value
+            Console.WriteLine(myNumbers.Sum());  // returns the sum of elements
+
+            int[,] numbers = { { 1, 4, 2 }, { 3, 6, 8 } };
+            Console.WriteLine(numbers[0, 2]);  // Outputs 2
+            numbers[0, 0] = 5;  // Change value to 5
+            Console.WriteLine(numbers[0, 0]); // Outputs 5 instead of 1
+            foreach (int i in numbers)
+            {
+                Console.WriteLine(i);
+            }
+
+            for (int i = 0; i < numbers.GetLength(0); i++)
+            {
+                for (int j = 0; j < numbers.GetLength(1); j++)
+                {
+                    Console.WriteLine(numbers[i, j]);
+                }
+            }  
+        }
     }
 }
