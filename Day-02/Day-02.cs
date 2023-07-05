@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Learning_CSharp.Day_02
+namespace Learning_CSharp
 {
     class Day_02
     {
